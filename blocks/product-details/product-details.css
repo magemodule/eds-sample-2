@@ -1,0 +1,34 @@
+/* stylelint-disable selector-class-pattern */
+/* stylelint-disable no-empty-source */
+.dropin-design .pdp-product__title,
+.dropin-design .dropin-price.pdp-product__price {
+  font-family: "Source Serif Pro", serif;
+}
+
+.dropin-design .pdp-product__sku {
+  font-size: 10px;
+}
+
+.dropin-design .pdp-swatches__field__label {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.dropin-design .pdp-product__attributes {
+  border-top: 3px solid var(--color-brand-500);
+  padding-top: 5px;
+}
+
+.dropin-design .dropin-text-swatch__label,
+.dropin-design .dropin-incrementer__increase-button,
+.dropin-design .dropin-incrementer__decrease-button {
+  transition: background-color 0.25s ease-out, color 0.25s ease-out,
+    box-shadow 0.25s ease-out;
+}
+
+.dropin-design .dropin-text-swatch__label:hover,
+.dropin-design .dropin-incrementer__increase-button:hover:enabled,
+.dropin-design .dropin-incrementer__decrease-button:hover:enabled {
+  background-color: var(--color-brand-500);
+  box-shadow: 0 0 0 var(--shape-border-width-1) var(--color-neutral-900);
+}
